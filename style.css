@@ -14,6 +14,7 @@ body {
 header {
     grid-column: 2 / 3;
     display: grid;
+    gap: 10px;
     grid-template-columns: 2fr 1fr;
     padding: 30px;
     align-items: center;
@@ -22,7 +23,6 @@ header {
 .search-bar {
     height: 35px;
     border-radius: 10px;
-    max-width: 80%;
     justify-self: stretch;
 }
 
@@ -150,6 +150,10 @@ main {
     align-self : end;
 }
 
+.trending-card {
+    margin: 2px;
+}
+
 .project-cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -162,6 +166,13 @@ main {
 
 .announcement-card p {
     margin: 0;
+}
+
+.trending-cards-container {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap:10px;
 }
 /* styles */
 :root {
@@ -194,16 +205,16 @@ aside img {
 .announcement-card p {
 }
 
-.announcement-cards-container {
+.announcement-cards-container,
+.trending-cards-container,
+.project-card {
     border-radius: 5px;
     box-shadow: hsla(0, 0%, 0%, 0.2) 3px 4px 10px;
     background-color: #fff;
 }
 
-.project-card,
 .trending-card {
-    background-color: #fff;
-    box-shadow: hsla(0, 0%, 0%, 0.2) 3px 4px 10px;
+    background-color: none;
     border-radius: 5px;
 }
 
