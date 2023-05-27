@@ -177,6 +177,11 @@ main {
     justify-self: end;
 }
 
+.project-icons img {
+    margin: 10px;
+    opacity: 0.5;
+}
+
 .announcement-card p {
     margin: 0;
 }
