@@ -1,2 +1,2 @@
 # odin-admin-dashboard
-Admin Dashboard assignmentfrom TheOdinProject
+Admin Dashboard assignment from TheOdinProject
